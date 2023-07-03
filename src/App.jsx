@@ -17,7 +17,9 @@ const auth = async () =>{
 function App() {
   return (
     <>
-
+     <button type='button' onClick={() => auth()}>
+      <img src={googleButton}/>
+     </button>
     </>
   )
 }
